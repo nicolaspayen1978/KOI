@@ -1,7 +1,7 @@
 
 # KOI - Portfolio Analysis Tool
 
-![KOI Logo](Koi_logo3.png)
+![KOI Logo](.\image\benchmark_portfolio.png)
 
 ## Overview
 
