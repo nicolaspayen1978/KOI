@@ -1,8 +1,9 @@
 
 # KOI - Portfolio Analysis Tool
 
-[image\benchmark_portfolio.png](https://github.com/nicolaspayen1978/KOI/blob/7ff13c021205beec73506cefc8f13588223292ba/image/benchmark_portfolio.png)
-
+<p align="center" width="100%">
+    <img width="70%" src="image\benchmark_portfolio.png"> 
+</p>
 ## Overview
 
 KOI is a versatile and comprehensive tool for analyzing and benchmarking investment portfolios, with a specific focus on climate tech and thematic sectors. KOI leverages Yahoo Finance data to support all major stock exchanges and currencies, enabling global portfolio management. With KOI, you can evaluate individual stocks, analyze custom portfolios, and benchmark various thematic sectors, all while selecting your preferred currency reference.
@@ -13,7 +14,7 @@ KOI is a versatile and comprehensive tool for analyzing and benchmarking investm
 - **Flexible Currency Reference**: Choose between USD or EUR as the reference currency for all analysis and reporting.
 - **Diverse Weighting Methodologies**: Apply different weighting methods to your portfolio, including equal weighting (`iso`), custom weights, and random weights for experimentation and analysis.
 - **Comprehensive Return Calculations**: KOI calculates both capital gains and dividends, providing an accurate total return.
-- **Benchmark portfolio performance**: KOI automatically benchmarks your portfolio performance against the most famous index
+- **Benchmark portfolio performance**: KOI automatically benchmarks your portfolio performance against the most famous indexes
 - **Annualized Return Calculation**: Calculate annualized gains based on the time of purchase for a precise measure of performance.
 - **Risk-Adjusted Return Analysis**: Measure portfolio risk-adjusted returns using the US Treasury yield as the risk-free rate.
 - **Sharpe Ratio Calculation**: Evaluate the Sharpe Ratio of your portfolio, a key metric that measures risk-adjusted return.
@@ -117,11 +118,30 @@ To benchmark the ClimateTech portfolio, ensure that relevant sections in `main.p
 
 Here are some sample outputs:
 
-### Total Returns Plot
-![Total Returns](path_to_example_chart.png)
+### Single Stock Analysis
+<p align="center" width="100%">
+    <img width="70%" src="image\Google.png"> 
+</p>
 
-### Portfolio Pie Chart
-![Portfolio Distribution](path_to_pie_chart.png)
+### Annualized returns Portfolio Analysis, Artificial Intelligence tickers
+<p align="center" width="100%">
+    <img width="70%" src="image\AI_annualized_fromdate_return.png"> 
+</p>
+
+### RSI analysis for a given Portfolio, Climate Tech Grid
+<p align="center" width="100%">
+    <img width="70%" src="image\RSI_indicators.png"> 
+</p>
+
+### Correlation of returns in a given portfolio, Artificial Intelligence tickers
+<p align="center" width="100%">
+    <img width="70%" src="image\AI_annualized_fromdate_correlation.png"> 
+</p>
+
+### Benchmark Risks-free Returns for different portfolios in EUR, compared with major indexes, based on US treasury yields
+<p align="center" width="100%">
+    <img width="70%" src="image\risk_adjusted_returns"> 
+</p>
 
 ## License
 
