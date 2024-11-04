@@ -140,7 +140,7 @@ Here are some sample outputs:
 
 ### Benchmark Risks-free Returns for different portfolios in EUR, compared with major indexes, based on US treasury yields
 <p align="center" width="100%">
-    <img width="70%" src="image\risk_adjusted_returns"> 
+    <img width="70%" src="image\risk_adjusted_returns.png"> 
 </p>
 
 ## License
