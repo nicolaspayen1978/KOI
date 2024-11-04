@@ -8,6 +8,11 @@
 
 KOI is a versatile and comprehensive tool for analyzing and benchmarking investment portfolios, with a specific focus on climate tech and thematic sectors. KOI leverages Yahoo Finance data to support all major stock exchanges and currencies, enabling global portfolio management. With KOI, you can evaluate individual stocks, analyze custom portfolios, and benchmark various thematic sectors, all while selecting your preferred currency reference.
 
+I built KOI to enhance my investment process and to make better decisions.
+<p align="center" width="100%">
+    <img width="70%" src="image\investment_process.png"> 
+</p>
+
 ## Key Features
 
 - **Global Market Access**: KOI supports all stock exchanges and currencies provided by Yahoo Finance, making it a truly global portfolio management tool.
