@@ -1,7 +1,7 @@
 
 # KOI - Portfolio Analysis Tool
 
-![KOI Logo](image\benchmark_portfolio.png)
+[image\benchmark_portfolio.png](https://github.com/nicolaspayen1978/KOI/blob/7ff13c021205beec73506cefc8f13588223292ba/image/benchmark_portfolio.png)
 
 ## Overview
 
