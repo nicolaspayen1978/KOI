@@ -143,6 +143,11 @@ Here are some sample outputs:
     <img width="70%" src="image\AI_annualized_fromdate_correlation.png"> 
 </p>
 
+### Evolution of annualized return for a given portfolio, Artificial Intelligence tickers
+<p align="center" width="100%">
+    <img width="70%" src="image\evolution_annualized_returns_fromdate.png"> 
+</p>
+
 ### Benchmark Risks-free Returns for different portfolios in EUR, compared with major indexes, based on US treasury yields
 <p align="center" width="100%">
     <img width="70%" src="image\risk_adjusted_returns.png"> 
