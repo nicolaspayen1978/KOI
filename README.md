@@ -13,6 +13,7 @@ KOI is a versatile and comprehensive tool for analyzing and benchmarking investm
 - **Flexible Currency Reference**: Choose between USD or EUR as the reference currency for all analysis and reporting.
 - **Diverse Weighting Methodologies**: Apply different weighting methods to your portfolio, including equal weighting (`iso`), custom weights, and random weights for experimentation and analysis.
 - **Comprehensive Return Calculations**: KOI calculates both capital gains and dividends, providing an accurate total return.
+- **Benchmark portfolio performance**: KOI automatically benchmarks your portfolio performance against the most famous index
 - **Annualized Return Calculation**: Calculate annualized gains based on the time of purchase for a precise measure of performance.
 - **Risk-Adjusted Return Analysis**: Measure portfolio risk-adjusted returns using the US Treasury yield as the risk-free rate.
 - **Sharpe Ratio Calculation**: Evaluate the Sharpe Ratio of your portfolio, a key metric that measures risk-adjusted return.
