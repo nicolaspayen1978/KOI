@@ -102,28 +102,30 @@ FourGs_Green = [['SU.PA', 271], ['AI.PA', 175], ['TOM.OL', 600], ['VOW.DE', 60],
 # This section defines portfolios that focus on different themes in climate technology,
 # such as solar, wind, and storage. Each portfolio is represented as a list of stock
 # tickers, which can be updated as needed to reflect changes in the market.
-# These lists are created and maintained by Nicolas Payen. They may not be up-to-date
-# Some tickers that generate errors when retrieving data from Yahoo Finance have been removed (mainly ticker with .L)
+# these lists are created and maintained by Nicolas Payen. They may not be up-to-date
+# some Tickers that generate errors when retrieving data from Yahoo Finance have been removed (mainly ticker with .L)
 ClimateTech_SOLAR = ['AGX']
 ClimateTech_SOLAR += ['NXT', 'CPV.XA', 'RELIANCE.NS', '601012.SS', '300274.SZ', 'FSLR', '600438.SS', '688223.SS', 'ENPH', '002459.SZ', '688599.SS', 'SOLARINDS.BO', 'SEDG', '009830.KS', '3800.HK']
-ClimateTech_SOLAR += ['BSIF.L', 'NESF.L', 'FSF.L', '600732.SS', '300763.SZ', '002056.SZ', '000591.SZ', '300118.SZ', '688390.SS', 'ARRY', 'SHLS', '002518.SZ', 'RUN', '300393.SZ', 'DQ', 'S92.DE', 'JKS']
-ClimateTech_SOLAR += ['000880.KS', 'CSIQ', 'NOVA', 'RECSI.OL', 'SOLT.ST', 'MBTN.SW', 'AMPS', 'SPWR', 'MAXN', 'SOL', 'FTCI', 'SOLR.V', 'ASTI', '13X.SG']
+ClimateTech_SOLAR += ['BSIF.L', 'NESF.L', '600732.SS', '300763.SZ', '002056.SZ', '000591.SZ', '300118.SZ', '688390.SS', 'ARRY', 'SHLS', '002518.SZ', 'RUN', '300393.SZ', 'DQ', 'S92.DE', 'JKS']
+ClimateTech_SOLAR += ['000880.KS', 'CSIQ', 'NOVA', 'RECSI.OL', 'SOLT.ST', 'MBTN.SW', 'AMPS', 'MAXN', 'SOL', 'FTCI', 'SOLR.V', 'ASTI', '13X.SG']
 ClimateTech_SOLAR += ['RIGD.IL', 'ZODIAC.NS']
 ##remove due to issue with currency 'SOLAR.BK', '1785.TWO', '688717.SS'
 
 ClimateTech_WIND = ['UKW.L', 'TPIC', 'NRDXF', 'TKA.DE', '001289.SZ', '601016.SS', '2727.HK','NDX1.DE', '300772.SZ', 'VIS18348-USD', 'SMNEY', '2208.HK', 'VWSB.DE', 'GE', 'ENR.DE', 'GEV']
-#remove due to issue with currency and Yahoo finance  'GWIND.IS'
+#remove due to issue with currency and yahoo finance  'GWIND.IS'
 
 ClimateTech_STORAGE = ['GRID.L', 'GSF.L', 'IKA.L', '688006.SS', '6409.TW', 'STEM', 'PLL', 'AMY.V', 'BES.V', 'NRGV', 'CBAT', 'QS', 'GWH', 'ENVX', 'FREY', 'SLDP', 'AMPX', 'ENR', 'NVNXF', 'NNOMF', 'ILIKF']
 ClimateTech_STORAGE += ['688390.SS', '300014.SZ', '002074.SZ', '688567.SS', '300207.SZ', '3931.HK', '096770.KS', 'BYDDY', '006400.KS', 'FLUX', '6752.T', 'FLNC', '051910.KS', 'TSLA', '373220.KS', '300750.SZ']
 
-ClimateTech_GRID = ['AGX', 'PWR', 'HUNGF', 'AGR', 'POWERGRID.NS', 'NGG', '600517.SS', 'AEP', 'XEL', 'PRY.MI',  'PLPC', 'POWL', '298040.KS', 'POWERINDIA.NS', 'ABBNY', 'KEC.NS', 'JYOTISTRUC.NS', 'LT.NS', 'NKT.CO', 'SMNEY', 'GE', 'SU.PA', 'GEV']
+ClimateTech_GRID = ['AGX', 'PWR', 'HUNGF', 'AGR', 'POWERGRID.NS', 'NGG', '600517.SS', 'AEP', 'XEL', 'PRY.MI', 'PLPC', 'POWL', '298040.KS', 'POWERINDIA.NS', 'ABBNY', 'KEC.NS', 'JYOTISTRUC.NS', 'LT.NS', 'NKT.CO', 'SMNEY', 'GE', 'SU.PA', 'GEV']
 
-ClimateTech_EMOBILITY = ['UBER', 'TSLA', 'BYDDY', 'VOW.DE', 'LI', 'RIVN', 'NIO', 'XPEV', 'POAHY', '0175.HK', 'LCID', 'BOSCHLTD.BO', 'PSNY', '002056.SZ', 'QS', 'FSR', '688667.SS', 'KNDI', 'SLDP', 'GOEV', 'HYLN', 'GP', 'ILIKF', 'SOLO', 'IDEX']
+ClimateTech_EMOBILITY = ['UBER', 'TSLA', 'BYDDY', 'VOW.DE', 'LI', 'RIVN', 'NIO', 'XPEV', 'POAHY', '0175.HK', 'LCID', 'BOSCHLTD.BO', 'PSNY', '002056.SZ', 'QS', '688667.SS', 'KNDI', 'SLDP', 'GOEV', 'HYLN', 'GP', 'ILIKF', 'IDEX']
 ClimateTech_EMOBILITY += ['IKA.L', 'FUV', 'AYRO', '9863.HK', 'BMW.DE', 'MBG.DE']
-#remove due to issue with Yahoo finance 'RIDE',
+#remove due to issue with yahoo finance 'RIDE',
 
-ClimateTech_EVCHARGING = ['PODP.L', '6409.TW', 'ALLG', 'BLNK', 'CRGE', 'SHLS', '688390.SS', 'ZAP.OL', 'BOSCHLTD.NS', 'TSLA', 'ADSE', 'NAAS', 'WKHS', 'CHPT', 'EVGO', 'WBX', 'DCFC'] 
+
+ClimateTech_EVCHARGING = ['PODP.L', '6409.TW', 'BLNK', 'SHLS', '688390.SS', 'ZAP.OL', 'BOSCHLTD.NS', 'TSLA', 'ADSE', 'NAAS', 'WKHS', 'CHPT', 'EVGO', 'WBX', 'DCFC'] 
+#remove due to issue 'CRGE'
 
 #ClimateTech ELECTRIFICATION & COMMODITY
 ClimateTech_ELEC = ['ABBNY', 'ELHA.AT', '6409.TW', 'LIGHT.AS', '0QWC.IL', 'PLL', 'ZIJMF', 'AMY.V', 'MN.V', 'GLNCY', 'RCIIND.BO', 'KOD.L', 'SGML', 'VLX.L', 'ELBM', 'BHP', 'TECK', 'PRY.MI', 'CETY', 'NOVA', 'BHP1.F']
@@ -133,15 +135,16 @@ ClimateTech_ELEC += ['LR.PA', 'NDA.DE', 'GE', 'SU.PA', 'E7V0.F', 'SOLAR-B.CO', '
 #Climate Tech ISOLATION & HEAT PUMP
 ClimateTech_HEAT = ['ORA', 'SPXC', 'SKFOF', '000786.SZ', 'SOLB.BR', 'AKE.PA', 'BAS.DE', '3300.HK', 'KYOCY', 'AGCO', 'NIBE-B.ST', 'IR', 'JCI', '6367.T', 'BOSCHLTD.NS', '373220.KS', 'SGO.PA', 'ROCK-B.CO', 'ROCK-A.CO']
 
+'AQNU'
 #Climate Tech CLEAN INFRA COMPANY
-ClimateTech_INFRA = ['BEP-PA', 'AQNU', 'AMPS', 'NEP', 'AQN', 'ORA', 'CWEN-A', 'AGR', 'RNW', 'CEG', 'ADANIGREEN.NS', 'BEPC', 'CWEN', 'JLEN.L', 'FSFL.L', 'NESF.L', 'TRIG.L', 'BSIF.L', 'GRID.L', 'BEPC', 'NEE', 'AMRC', 'AES', '0586.HK']
+ClimateTech_INFRA = ['BEP-PA', 'AMPS', 'NEP', 'AQN', 'ORA', 'CWEN-A', 'AGR', 'RNW', 'CEG', 'ADANIGREEN.NS', 'BEPC', 'CWEN', 'JLEN.L', 'FSFL.L', 'NESF.L', 'TRIG.L', 'BSIF.L', 'GRID.L', 'NEE', 'AMRC', 'AES', '0586.HK']
 ClimateTech_INFRA += ['001289.SZ', 'SCATC.OL', 'ENEL.MI', 'ANA.MC', 'AY', 'BYW.DE', 'NEOEN.PA', 'NSOL.OL', 'VLTSA.PA', '000591.SZ', '6838.T', 'ECV.DE', 'IBDRY', 'RWE.DE', '300140.SZ', '601016.SS', 'ENGI.PA', 'RIGD.IL']
 ClimateTech_INFRA += ['EVGRF', 'WM', 'ORSTED.CO', 'BEPC.TO', 'NHY.OL', 'EDPR.LS', 'ORIT.L']
 #problem with currency 'PEN.PR', '2082.SR', 'AYDEM.IS'
 
 #Climate Tech POWER UTILITIES
 ClimateTech_POWER = ['OEWA.F', 'FOJCF', '600900.SS', '015760.KS', 'WEC', 'ED', 'PCG', 'XEL', 'NGG', 'AEP', 'SRE', 'D', 'SO', 'NEE-PR', 'DUK', '0MC5.IL']
-#'AESC',
+#remove due to issue 'AESC'
 
 #Climate Tech NUCLEAR
 ClimateTech_NUCL = ['FOJCF', 'UEC', '0611.HK', '601611.SS', 'PALAF', 'SMR', '015760.KS', '000881.SZ', 'UCLE', 'NLR', '601985.SS', 'CCJ', 'UUUU', 'DNN']
@@ -295,23 +298,21 @@ myPortfolioBenchmarkBench = pb.Portfolio_benchmark_bench(start_period, end_perio
 
 #add a portfolio
 myPortfolioBenchmarkBench.add_portfolio('4Gs Green', FourGs_Green, 'CustomDynamicWeight')
-
-
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech Solar', ClimateTech_SOLAR, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech Wind', ClimateTech_WIND, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech Storage', ClimateTech_STORAGE, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech Solar', ClimateTech_SOLAR, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech Wind', ClimateTech_WIND, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech Storage', ClimateTech_STORAGE, 'EqualWeight')
 myPortfolioBenchmarkBench.add_portfolio('ClimateTech Grid', ClimateTech_GRID, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech eMobility', ClimateTech_EMOBILITY, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech EVcharging', ClimateTech_EVCHARGING, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech Elec', ClimateTech_ELEC, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech Heat', ClimateTech_HEAT, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech Infra', ClimateTech_INFRA, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech Power', ClimateTech_POWER, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech Nuclear', ClimateTech_NUCL, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech Waste', ClimateTech_WASTE, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech Fuel', ClimateTech_CleanFUEL, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech H2', ClimateTech_HTWO, 'EqualWeight')
-#myPortfolioBenchmarkBench.add_portfolio('ClimateTech H2', ClimateTech_WATER, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech eMobility', ClimateTech_EMOBILITY, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech EVcharging', ClimateTech_EVCHARGING, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech Elec', ClimateTech_ELEC, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech Heat', ClimateTech_HEAT, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech Infra', ClimateTech_INFRA, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech Power', ClimateTech_POWER, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech Nuclear', ClimateTech_NUCL, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech Waste', ClimateTech_WASTE, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech Fuel', ClimateTech_CleanFUEL, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech H2', ClimateTech_HTWO, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('ClimateTech H2', ClimateTech_WATER, 'EqualWeight')
 
 #myPortfolioBenchmarkBench.add_portfolio('Coal', COAL, 'EqualWeight')
 #myPortfolioBenchmarkBench.add_portfolio('Oil & Gas', OIL_GAS, 'EqualWeight')
@@ -330,17 +331,16 @@ myPortfolioBenchmarkBench.add_portfolio('Magnificient 7 (US*)', MAG_SEVEN, 'Equa
 myPortfolioBenchmarkBench.add_portfolio('Granolas (EU*)', GRANOLAS, 'EqualWeight')
 
 #display chart
-myPortfolioBenchmarkBench.display_portfolio_charts('4Gs Green')
+#myPortfolioBenchmarkBench.display_portfolio_charts('4Gs Green')
 #myPortfolioBenchmarkBench.display_portfolio_charts('Generational')
 #myPortfolioBenchmarkBench.display_portfolio_charts('Gratification')
-myPortfolioBenchmarkBench.display_portfolio_charts('AI')
+#myPortfolioBenchmarkBench.display_portfolio_charts('AI')
 #myPortfolioBenchmarkBench.display_portfolio_charts('Automation')
 #myPortfolioBenchmarkBench.display_portfolio_charts('ClimateTech Solar')
 #myPortfolioBenchmarkBench.display_portfolio_charts('ClimateTech Storage')
-myPortfolioBenchmarkBench.display_portfolio_charts('ClimateTech Grid')
-myPortfolioBenchmarkBench.display_portfolio_charts('Magnificient 7 (US*)')
-myPortfolioBenchmarkBench.display_portfolio_charts('Granolas (EU*)')
-
+#myPortfolioBenchmarkBench.display_portfolio_charts('ClimateTech Grid')
+#myPortfolioBenchmarkBench.display_portfolio_charts('Magnificient 7 (US*)')
+#myPortfolioBenchmarkBench.display_portfolio_charts('Granolas (EU*)')
 myPortfolioBenchmarkBench.compute_fromdate_sharpe_ratios()
 #benchmark portfolio
 myPortfolioBenchmarkBench.portfolio_risks_fromdate_totalreturns_plot()
