@@ -102,8 +102,8 @@ FourGs_Green = [['SU.PA', 271], ['AI.PA', 175], ['TOM.OL', 600], ['VOW.DE', 60],
 # This section defines portfolios that focus on different themes in climate technology,
 # such as solar, wind, and storage. Each portfolio is represented as a list of stock
 # tickers, which can be updated as needed to reflect changes in the market.
-# these lists are created and maintained by Nicolas Payen. They may not be up-to-date
-# some Tickers that generate errors when retrieving data from Yahoo Finance have been removed (mainly ticker with .L)
+# These lists are created and maintained by Nicolas Payen. They may not be up-to-date
+# Some tickers that generate errors when retrieving data from Yahoo Finance have been removed (mainly ticker with .L)
 ClimateTech_SOLAR = ['AGX']
 ClimateTech_SOLAR += ['NXT', 'CPV.XA', 'RELIANCE.NS', '601012.SS', '300274.SZ', 'FSLR', '600438.SS', '688223.SS', 'ENPH', '002459.SZ', '688599.SS', 'SOLARINDS.BO', 'SEDG', '009830.KS', '3800.HK']
 ClimateTech_SOLAR += ['BSIF.L', 'NESF.L', 'FSF.L', '600732.SS', '300763.SZ', '002056.SZ', '000591.SZ', '300118.SZ', '688390.SS', 'ARRY', 'SHLS', '002518.SZ', 'RUN', '300393.SZ', 'DQ', 'S92.DE', 'JKS']
@@ -112,7 +112,7 @@ ClimateTech_SOLAR += ['RIGD.IL', 'ZODIAC.NS']
 ##remove due to issue with currency 'SOLAR.BK', '1785.TWO', '688717.SS'
 
 ClimateTech_WIND = ['UKW.L', 'TPIC', 'NRDXF', 'TKA.DE', '001289.SZ', '601016.SS', '2727.HK','NDX1.DE', '300772.SZ', 'VIS18348-USD', 'SMNEY', '2208.HK', 'VWSB.DE', 'GE', 'ENR.DE', 'GEV']
-#remove due to issue with currency and yahoo finance  'GWIND.IS'
+#remove due to issue with currency and Yahoo finance  'GWIND.IS'
 
 ClimateTech_STORAGE = ['GRID.L', 'GSF.L', 'IKA.L', '688006.SS', '6409.TW', 'STEM', 'PLL', 'AMY.V', 'BES.V', 'NRGV', 'CBAT', 'QS', 'GWH', 'ENVX', 'FREY', 'SLDP', 'AMPX', 'ENR', 'NVNXF', 'NNOMF', 'ILIKF']
 ClimateTech_STORAGE += ['688390.SS', '300014.SZ', '002074.SZ', '688567.SS', '300207.SZ', '3931.HK', '096770.KS', 'BYDDY', '006400.KS', 'FLUX', '6752.T', 'FLNC', '051910.KS', 'TSLA', '373220.KS', '300750.SZ']
@@ -121,7 +121,7 @@ ClimateTech_GRID = ['AGX', 'PWR', 'HUNGF', 'AGR', 'POWERGRID.NS', 'NGG', '600517
 
 ClimateTech_EMOBILITY = ['UBER', 'TSLA', 'BYDDY', 'VOW.DE', 'LI', 'RIVN', 'NIO', 'XPEV', 'POAHY', '0175.HK', 'LCID', 'BOSCHLTD.BO', 'PSNY', '002056.SZ', 'QS', 'FSR', '688667.SS', 'KNDI', 'SLDP', 'GOEV', 'HYLN', 'GP', 'ILIKF', 'SOLO', 'IDEX']
 ClimateTech_EMOBILITY += ['IKA.L', 'FUV', 'AYRO', '9863.HK', 'BMW.DE', 'MBG.DE']
-#remove due to issue with yahoo finance 'RIDE',
+#remove due to issue with Yahoo finance 'RIDE',
 
 ClimateTech_EVCHARGING = ['PODP.L', '6409.TW', 'ALLG', 'BLNK', 'CRGE', 'SHLS', '688390.SS', 'ZAP.OL', 'BOSCHLTD.NS', 'TSLA', 'ADSE', 'NAAS', 'WKHS', 'CHPT', 'EVGO', 'WBX', 'DCFC'] 
 
