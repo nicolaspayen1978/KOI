@@ -1,5 +1,5 @@
 '''
-KOI v1.0
+KOI v1.0.1
 Credits to the original stock_analyzer.py from StevenMedvetz version 2.0. It was a starting point for the Asset Class and Portfolio Class
 Credits to James Eagle for the total return calculation
 Rest of the code is from Nicolas Payen
