@@ -13,11 +13,13 @@ I built KOI to enhance my investment process and to make better decisions.
     <img width="70%" src="image\investment_process.png"> 
 </p>
 
+<strong>Important</strong>: Please note that KOI analyzes a static portfolio, meaning the portfolio composition does not change throughout the analysis period. As a result, KOI does not provide real-time performance tracking of your holdings or reflect changes from transactions over time.
+
 ## Key Features
 
 - **Global Market Access**: KOI supports all stock exchanges and currencies provided by Yahoo Finance, making it a truly global portfolio management tool.
 - **Flexible Currency Reference**: Choose between USD or EUR as the reference currency for all analysis and reporting.
-- **Diverse Weighting Methodologies**: Apply different weighting methods to your portfolio, including equal weighting (`iso`), custom weights, and random weights for experimentation and analysis.
+- **Diverse Weighting Methodologies**: Apply different weighting methods to your portfolio, including equal weighting (`iso`), dynamic custom weights, and random weights for experimentation and analysis.
 - **Comprehensive Return Calculations**: KOI calculates both capital gains and dividends, providing an accurate total return.
 - **Benchmark portfolio performance**: KOI automatically benchmarks your portfolio performance against the most famous indexes
 - **Annualized Return Calculation**: Calculate annualized gains based on the time of purchase for a precise measure of performance.
@@ -38,7 +40,7 @@ I built KOI to enhance my investment process and to make better decisions.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/KOI.git
+   git clone https://github.com/nicolaspayen1978/KOI.git
    cd KOI
    ```
 
