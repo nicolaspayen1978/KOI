@@ -20,7 +20,8 @@ import plotly.io as pio
 import plotly.graph_objects as go
 import pandas as pd
 import random
-import statistics 
+import time
+import statistics
 import os
 from PIL import Image
 from plotly.subplots import make_subplots
@@ -342,9 +343,13 @@ class Asset:
             self.market_cap_df = pd.DataFrame(index=self.assets_data_df.index)
             for tickerSymbol in self.tickers:
                 tickerData = yf.Ticker(tickerSymbol)
-                temp_dict = tickerData.info
+                try:
+                    temp_dict = tickerData.info
+                except Exception as e:
+                    print(f"Error fetching data for {tickerSymbol}: {e}")
+                time.sleep(1.5)  # Pause for 1.5 seconds to prevent Yahoo finance 429 Too Many Requests errors due to Yahoo Finance’s rate limits
                 #print("dictionary for " + tickerSymbol)
-                #print(temp_dict)  
+                #print(temp_dict)
                 #We have now the current market cap, we applied it to last value of the dataframe taking into account the FX at that time
                 #ideally we would like to get the marketcap at the given time
                 try:
