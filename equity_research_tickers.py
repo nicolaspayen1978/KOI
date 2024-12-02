@@ -986,7 +986,7 @@ Generation_W_Companies = [
     'WMT',  # Walmart Inc.
     'MO',   # Altria Group, Inc.
     'DEO',  # Diageo plc
-    'SAB',  # SABMiller plc
+#   'SAB',  # SABMiller plc
     'TM',   # Toyota Motor Corporation
     '005930.KS',  # Samsung Electronics Co., Ltd.
     'UL',   # Unilever plc
@@ -1005,14 +1005,14 @@ Generation_X_Companies = [
     'HAS',      # Hasbro, Inc.
     'BMW.DE',   # Bayerische Motoren Werke AG
     'GOOG',     # Alphabet Inc.
-    'ATVI',     # Activision Blizzard, Inc.
+#    'ATVI',     # Activision Blizzard, Inc.
     'NFLX',     # Netflix, Inc.
     'RL',       # Ralph Lauren Corporation
     '005930.KS', # Samsung Electronics Co., Ltd.
     'DIS',      # The Walt Disney Company
     'DEO',      # Diageo plc
     '7974.T',   # Nintendo Co., Ltd.
-    'LVMH.PA',  # LVMH Moët Hennessy Louis Vuitton SE
+    'MC.PA',  # LVMH Moët Hennessy Louis Vuitton SE
     'KER.PA',   # Kering SA
     'RMS.PA',   # Hermès International S.A.
 ]
