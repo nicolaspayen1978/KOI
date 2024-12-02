@@ -220,6 +220,12 @@ myPortfolioBenchmarkBench.add_portfolio('4Gs PipelineP1', fourGs.FourGs_Pipeline
 #myPortfolioBenchmarkBench.add_portfolio('Health Care', ert.HealthCare, 'EqualWeight')
 #myPortfolioBenchmarkBench.add_portfolio('Health Drugs', ert.HealthDrug, 'EqualWeight')
 
+myPortfolioBenchmarkBench.add_portfolio('Gratifications', ert.Gratifications, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('Generation W', ert.Generation_W_Companies, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('Generation X', ert.Generation_X_Companies, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('Generation Y', ert.Generation_Y_Companies, 'EqualWeight')
+myPortfolioBenchmarkBench.add_portfolio('Generation Z', ert.Generation_Z_Companies, 'EqualWeight')
+
 #myPortfolioBenchmarkBench.add_portfolio('Coal', ert.COAL, 'EqualWeight')
 #myPortfolioBenchmarkBench.add_portfolio('Oil & Gas', ert.OIL_GAS, 'EqualWeight')
 

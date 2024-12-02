@@ -897,6 +897,178 @@ HealthDrug = [
     'SUNPHARMA.NS', # Sun Pharmaceutical Industries Ltd. (India)
 ]
 
+
+#*************************************** Gratification *************************************************************
+Gratifications = [
+    # Fashion and Leather Goods
+    'MC.PA',    # LVMH Moët Hennessy Louis Vuitton SE (France)
+    'KER.PA',   # Kering SA (France)
+    'CPRI',     # Capri Holdings Limited (USA)
+    'TPR',      # Tapestry, Inc. (USA)
+    'BRBY.L',   # Burberry Group plc (UK)
+    '1913.HK',  # Prada S.p.A. (Hong Kong)
+    'RL',       # Ralph Lauren Corporation (USA)
+    'RMS.PA',   # Hermès International S.A. (France)
+    'MONC.MI',  # Moncler S.p.A. (Italy)
+#    'TOD.MI',   # Tod's S.p.A. (Italy)
+
+    # Jewelry and Watches
+    'CFR.SW',   # Compagnie Financière Richemont SA (Switzerland)
+    'UHR.SW',   # The Swatch Group Ltd. (Switzerland)
+    'PANDY',    # Pandora A/S (Denmark)
+    'SIG',      # Signet Jewelers Limited (USA)
+
+    # Automobiles
+    'RACE',     # Ferrari N.V. (Italy)
+    'P911.DE',  # Porsche AG
+    'BMW.DE',   # Bayerische Motoren Werke AG (Germany)
+    'MBG.DE',   # Mercedes-Benz Group AG (Germany)
+    'TSLA',     # Tesla, Inc. (USA)
+    'TATAMOTORS.NS',      # Tata Motors Limited (India)
+    'HMC',      # Honda Motor Co., Ltd. (Japan)
+    'TM',       # Toyota Motor Corporation (Japan)
+
+    # Hospitality
+    'MAR',      # Marriott International, Inc. (USA)
+    'HLT',      # Hilton Worldwide Holdings Inc. (USA)
+    'IHG',      # InterContinental Hotels Group PLC (UK)
+    'H',        # Hyatt Hotels Corporation (USA)
+    'AC.PA',    # Accor SA (France)
+    'MLCO',     # Melco Resorts & Entertainment Limited (Hong Kong)
+    'LVS',      # Las Vegas Sands Corp. (USA)
+    'WYNN',     # Wynn Resorts, Limited (USA)
+    'MGM',      # MGM Resorts International (USA)
+
+    # Real Estate
+    'VNO',      # Vornado Realty Trust (USA)
+    'HKHGF',    # Hongkong Land Holdings Limited (Hong Kong)
+    'SPG',      # Simon Property Group, Inc. (USA)
+    'BXP',      # Boston Properties, Inc. (USA)
+    '1113.HK',  # CK Asset Holdings Limited (Hong Kong)
+    'CPP.F',    # China Overseas Land & Investment Limited (Hong Kong)
+    'ARE',      # Alexandria Real Estate Equities, Inc. (USA)
+    'EQR',      # Equity Residential (USA)
+
+    # Luxury Spirits and Beverages
+    'BF-B',     # Brown-Forman Corporation (USA)
+    'DEO',      # Diageo plc (UK)
+    'RI.PA',    # Pernod Ricard SA (France)
+    'CCU',      # Compañía Cervecerías Unidas S.A. (Chile)
+    '2503.T',   # Kirin Holdings Company, Limited (Japan)
+#    'SAB',     # SABMiller plc (UK) [Acquired by Anheuser-Busch InBev]
+    'TAP',      # Molson Coors Beverage Company (USA)
+    'ABEV',     # Ambev S.A. (Brazil)
+    'HEIA.AS',  # Heineken N.V. (Netherlands)
+    'CBGB.F',   # Carlsberg A/S (Denmark)
+    '2502.T',    # Asahi Group Holdings, Ltd. (Japan)
+    '600600.SS', # Tsingtao Brewery Company Limited (China)
+    '002304.SZ', # Jiangsu Yanghe Brewery Joint-Stock Co., Ltd. (China)
+    '600519.SS', # Kweichow Moutai Co., Ltd. (China)
+
+    # Beauty and Cosmetics
+    'SSDOY',    # Shiseido Company, Limited (Japan)
+    '002790.KS' # AMOREPACIFIC Group (South Korea)
+]
+
+#*************************************** Generational *************************************************************
+# Baby Boomers Companies
+Generation_W_Companies = [
+    'KO',   # The Coca-Cola Company
+    'PEP',  # PepsiCo, Inc.
+    'MCD',  # McDonald's Corporation
+    'F',    # Ford Motor Company
+    'GM',   # General Motors Company
+    'JNJ',  # Johnson & Johnson
+    'PG',   # Procter & Gamble Co.
+    'IBM',  # International Business Machines Corporation
+    'DIS',  # The Walt Disney Company
+    'T',    # AT&T Inc.
+    'WMT',  # Walmart Inc.
+    'MO',   # Altria Group, Inc.
+    'DEO',  # Diageo plc
+    'SAB',  # SABMiller plc
+    'TM',   # Toyota Motor Corporation
+    '005930.KS',  # Samsung Electronics Co., Ltd.
+    'UL',   # Unilever plc
+    'NVS',  # Novartis AG
+]
+
+# Generation X Companies
+Generation_X_Companies = [
+    'AAPL',     # Apple Inc.
+    'NKE',      # Nike, Inc.
+    'SONY',     # Sony Group Corporation
+    'MSFT',     # Microsoft Corporation
+    'SBUX',     # Starbucks Corporation
+    'ADBE',     # Adobe Inc.
+    'EA',       # Electronic Arts Inc.
+    'HAS',      # Hasbro, Inc.
+    'BMW.DE',   # Bayerische Motoren Werke AG
+    'GOOG',     # Alphabet Inc.
+    'ATVI',     # Activision Blizzard, Inc.
+    'NFLX',     # Netflix, Inc.
+    'RL',       # Ralph Lauren Corporation
+    '005930.KS', # Samsung Electronics Co., Ltd.
+    'DIS',      # The Walt Disney Company
+    'DEO',      # Diageo plc
+    '7974.T',   # Nintendo Co., Ltd.
+    'LVMH.PA',  # LVMH Moët Hennessy Louis Vuitton SE
+    'KER.PA',   # Kering SA
+    'RMS.PA',   # Hermès International S.A.
+]
+
+# Millennials Companies
+Generation_Y_Companies = [
+    'META',  # Meta Platforms, Inc.
+    'NFLX', # Netflix, Inc.
+    'TSLA',  # Tesla, Inc.
+    'AMZN',  # Amazon.com, Inc.
+    'BKNG',  # Booking Inc.
+    'SPOT',  # Spotify Technology S.A.
+    'AAPL',  # Apple Inc.
+    'UBER',  # Uber Technologies, Inc.
+    'ADSK',  # Autodesk, Inc.
+    'LULU',  # Lululemon Athletica Inc.
+    'SQ',    # Block, Inc.
+#   'TWTR',  # Twitter, Inc.
+    'ETSY',  # Etsy, Inc.
+    'PYPL',  # PayPal Holdings, Inc.
+    '1810.HK',  # Xiaomi Corporation
+    'TCEHY',    # Tencent Holdings Limited
+    'MNSO',     # Miniso Group Holding Limited
+    '1913.HK',  # Prada S.p.A.
+    'RL',       # Ralph Lauren Corporation
+    'RACE',     # Ferrari N.V.
+]
+
+# Generation Z Companies
+Generation_Z_Companies = [
+    'SNAP',  # Snap Inc.
+    'BILI',  # Bilibili Inc.
+    'BYND',  # Beyond Meat, Inc.
+    'SPOT',  # Spotify Technology S.A.
+    'ROBLX',  # Roblox Corporation
+    'ABNB',  # AirBnB Inc.
+    'MTCH',  # Match Group, Inc.
+    'SHOP',  # Shopify Inc.
+    'NVDA',  # NVIDIA Corporation
+    'Z',  # Zillow Group, Inc.
+    'PLTR',  # Palantir Technologies Inc.
+    'DIS',  # The Walt Disney Company
+    '005930.KS',  # Samsung Electronics Co., Ltd.
+    '7974.T',  # Nintendo Co., Ltd.
+    'MNSO',  # Miniso Group Holding Limited
+    'BABA',  # Alibaba Group Holding Limited
+    'JD',  # JD.com, Inc.
+    'PDD',  # Pinduoduo Inc.
+    'TME',  # Tencent Music Entertainment Group
+    'IQ',  # iQIYI, Inc.
+    'ETH/USD',  # Ethereum Cryptocurrency
+    'BTC/USD',  # Bitcoin Cryptocurrency
+    'COIN',  # Coinbase Global, Inc.
+    'MNST',  # Monster Beverage Corporation
+]
+
 #*************************************** FOSSIL FUEL *************************************************************
 #Coal
 #removed due to issue: 'GMETCOAL.BO'
