@@ -257,6 +257,12 @@ myPortfolioBenchmarkBench.add_portfolio('Generation Z', ert.Generation_Z_Compani
 #myPortfolioBenchmarkBench.display_portfolio_charts('Automation')
 #myPortfolioBenchmarkBench.display_portfolio_charts('AI')
 
+myPortfolioBenchmarkBench.display_portfolio_charts('Gratifications')
+myPortfolioBenchmarkBench.display_portfolio_charts('Generation W')
+myPortfolioBenchmarkBench.display_portfolio_charts('Generation X')
+myPortfolioBenchmarkBench.display_portfolio_charts('Generation Y')
+myPortfolioBenchmarkBench.display_portfolio_charts('Generation Z')
+
 # ************************************************************
 # Commpare portfolio(s) performances
 # ************************************************************

@@ -1047,26 +1047,28 @@ Generation_Z_Companies = [
     'BILI',  # Bilibili Inc.
     'BYND',  # Beyond Meat, Inc.
     'SPOT',  # Spotify Technology S.A.
-    'ROBLX',  # Roblox Corporation
+    'RBLX',  # Roblox Corporation
     'ABNB',  # AirBnB Inc.
     'MTCH',  # Match Group, Inc.
     'SHOP',  # Shopify Inc.
     'NVDA',  # NVIDIA Corporation
-    'Z',  # Zillow Group, Inc.
+    'Z',     # Zillow Group, Inc.
     'PLTR',  # Palantir Technologies Inc.
-    'DIS',  # The Walt Disney Company
+    'DIS',   # The Walt Disney Company
     '005930.KS',  # Samsung Electronics Co., Ltd.
-    '7974.T',  # Nintendo Co., Ltd.
+    '035900.KS', #JYP ENTERTAIN ORD (Kpop)
+    '7974.T',# Nintendo Co., Ltd.
     'MNSO',  # Miniso Group Holding Limited
     'BABA',  # Alibaba Group Holding Limited
-    'JD',  # JD.com, Inc.
-    'PDD',  # Pinduoduo Inc.
+    'JD',    # JD.com, Inc.
+    'PDD',   # Pinduoduo Inc.
     'TME',  # Tencent Music Entertainment Group
-    'IQ',  # iQIYI, Inc.
-    'ETH/USD',  # Ethereum Cryptocurrency
-    'BTC/USD',  # Bitcoin Cryptocurrency
+    'IQ',    # iQIYI, Inc.
+    'ETH-USD',  # Ethereum Cryptocurrency
+    'BTC-USD',  # Bitcoin Cryptocurrency
     'COIN',  # Coinbase Global, Inc.
     'MNST',  # Monster Beverage Corporation
+
 ]
 
 #*************************************** FOSSIL FUEL *************************************************************
