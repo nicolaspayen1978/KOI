@@ -52,9 +52,10 @@ ClimateTech_SOLAR = [
         '300763.SZ',   # Ginlong Technologies Co., Ltd. (China)
         '3800.HK',     # GCL-Poly Energy Holdings Limited (Hong Kong)
         '600438.SS',   # Tongwei Co., Ltd. (China)
+        '605117.SS',    # Ningbo Deye Technology Group Co., Ltd. 
         '600732.SS',   # Shanghai Electric Group Company Limited (China)
         '601012.SS',   # LONGi Green Energy Technology Co., Ltd. (China)
-        '601615.SS',    # Mingyang Smart Energy Group Co., Ltd. (China)
+        '601615.SS',   # Mingyang Smart Energy Group Co., Ltd. (China)
         '688223.SS',   # Beijing Jingyuntong Technology Co., Ltd. (China)
         '688390.SS',   # Suzhou Maxwell Technologies Co., Ltd. (China)
         '688599.SS',   # Trina Solar Limited (China)
@@ -131,6 +132,7 @@ ClimateTech_WIND = [
 
 #ClimateTech Energy Storage / wo H2
 ClimateTech_STORAGE = [
+    '1783.HK',      # Envision Green 
     '002074.SZ',    # Gotion High-Tech Co., Ltd. (China)
     '006400.KS',    # Samsung SDI Co., Ltd. (South Korea)
     '051910.KS',    # LG Chem Ltd. (South Korea)
@@ -145,6 +147,8 @@ ClimateTech_STORAGE = [
     '688006.SS',    # Tianqi Lithium Corporation (China)
     '688390.SS',    # Ganfeng Lithium Co., Ltd. (China)
     '688567.SS',    # Sunwoda Electronic Co., Ltd. (China)
+    '605117.SS',    # Ningbo Deye Technology Group Co., Ltd.
+    'AQMS',         # Aqua Metals, Inc. 
     'AMPX',         # Amprius Technologies, Inc. (USA)
     'AMY.V',        # American Manganese Inc. (Canada)
     'BES.V',        # Blue Sky Energy Inc. (Canada)
@@ -160,6 +164,7 @@ ClimateTech_STORAGE = [
     'GWH',          # ESS Tech, Inc. (USA)
     'IKA.L',        # iShares Global Clean Energy ETF (UK)
     'ILIKF',        # Ilika plc (UK)
+    'NEOV',         # NeoVolta Inc
     'NNOMF',        # Nano One Materials Corp. (Canada)
     'NRGV',         # Energy Vault Holdings, Inc. (USA)
     'NVNXF',        # Novonix Limited (Australia)
@@ -168,6 +173,7 @@ ClimateTech_STORAGE = [
     'SLDP',         # Solid Power, Inc. (USA)
     'STEM',         # Stem, Inc. (USA)
     'TSLA',         # Tesla, Inc. (USA)
+    'TURB',         # Turbo Energy, S.A.
 ]
 
 #ClimateTech Grid
@@ -213,10 +219,12 @@ ClimateTech_EMOBILITY = [
     '002056.SZ',    # Fujian New Longma Automobile Co., Ltd. (China)
     '300750.SZ',    # Contemporary Amperex Technology Co., Limited (CATL)
     '373220.KS',    # LG Energy Solution Ltd.
+    '000270.KS',    # Kia Corporation
     '0175.HK',      # Geely Automobile Holdings Limited (Hong Kong)
+    '1810.HK',      # Xiaomi Corporation
+    '9863.HK',      # XPeng Inc. (Hong Kong)
     '6752.T',       # Panasonic Corporation
     '688667.SS',    # Changzhou Xingyu Automotive Lighting Systems Co., Ltd. (China)
-    '9863.HK',      # XPeng Inc. (Hong Kong)
     'AUR',          # Aurora Innovation, Inc
     'AYRO',         # AYRO, Inc. (USA)
     'BMW.DE',       # Bayerische Motoren Werke AG (Germany)
@@ -319,6 +327,7 @@ ClimateTech_ELEC = [
     'GE',           # General Electric Company (USA)
     'GEV',          # GE Vernova (USA)
     'GLNCY',        # Glencore plc (UK)
+    'IPWR',         # Ideal Power Inc
     'KOD.L',        # Kodal Minerals plc (UK)
     'LIGHT.AS',     # Signify N.V. (Netherlands)
     'LR.PA',        # Legrand SA (France)
