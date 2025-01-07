@@ -144,6 +144,7 @@ ClimateTech_STORAGE = [
     '3931.HK',      # China Dynamics Holdings Limited (Hong Kong)
     '6409.TW',      # EVE Energy Co., Ltd. (Taiwan)
     '6752.T',       # Panasonic Corporation (Japan)
+    '6674.T',       # GS YUASA (Japan)
     '688006.SS',    # Tianqi Lithium Corporation (China)
     '688390.SS',    # Ganfeng Lithium Co., Ltd. (China)
     '688567.SS',    # Sunwoda Electronic Co., Ltd. (China)
