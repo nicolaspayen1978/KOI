@@ -6,7 +6,7 @@
 # ******************************
 # This section defines the 4Gs portfolio that I manage focusing on climate technology,
 # [tickers, nb_shares] which can be updated as needed to reflect changes in the portfolio.
-FourGs_Green = [['SU.PA', 271], ['AI.PA', 175], ['TOM.OL', 600], ['VOW.DE', 60], ['VWSB.DE', 225], ['ORSTED.CO', 151], ['NEX.PA', 25], ['TSLA', 204], ['WM', 90], ['NEE', 245], ['BEPC', 420], ['DQ', 162], ['ENPH', 25], ['601012.SS', 9120], ['0175.HK', 4000], ['2208.HK', 9200], ['002594.SZ', 200], ['LTOD.IL', 75], ['6752.T', 1000], ['GEV', 110], ['NEP', 1692], ['FREY', 250], ['605117.SS', 100]]
+FourGs_Green = [['SU.PA', 271], ['AI.PA', 175], ['TOM.OL', 600], ['VOW.DE', 60], ['VWSB.DE', 225], ['ORSTED.CO', 151], ['NEX.PA', 25], ['TSLA', 204], ['WM', 100], ['NEE', 245], ['BEPC', 420], ['DQ', 162], ['ENPH', 25], ['601012.SS', 9120], ['0175.HK', 4000], ['2208.HK', 9200], ['002594.SZ', 200], ['LTOD.IL', 75], ['6752.T', 1000], ['GEV', 110], ['NEP', 1692], ['FREY', 250], ['605117.SS', 100], ['HASI', 150]]
 
 #*************************************** RESEARCH & ANALYSIS *************************************************************
 #new potential stock P1
