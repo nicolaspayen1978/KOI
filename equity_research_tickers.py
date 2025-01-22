@@ -43,23 +43,26 @@ ClimateTech_SOLAR = [
         '002218.SZ',   # Shunfeng International Clean Energy Ltd. (China)
         '002459.SZ',   # JA Solar Technology Co., Ltd. (China)
         '002518.SZ',   # Kangda New Materials (Group) Co., Ltd. (China)
+        '300842.SZ',   # Wuxi DK Electronic Materials Co.,Ltd.  (China)
+        '300724.SZ',   # Shenzhen S.C New Energy Technology Corporation (China)
         '009830.KS',   # Hanwha Q CELLS Co., Ltd. (South Korea)
         '13X.SG',      # Xinyi Solar Holdings Ltd. (Singapore)
-#        '1785.TWO',    # Solar Applied Materials Technology Corporation
+#        '1785.TWO',   # Solar Applied Materials Technology Corporation
         '300118.SZ',   # Shenzhen Topraysolar Co., Ltd. (China)
         '300274.SZ',   # Sungrow Power Supply Co., Ltd. (China)
         '300393.SZ',   # Zhejiang Chint Electrics Co., Ltd. (China)
         '300763.SZ',   # Ginlong Technologies Co., Ltd. (China)
         '3800.HK',     # GCL-Poly Energy Holdings Limited (Hong Kong)
         '600438.SS',   # Tongwei Co., Ltd. (China)
-        '605117.SS',    # Ningbo Deye Technology Group Co., Ltd. 
+        '605117.SS',   # Ningbo Deye Technology Group Co., Ltd. 
         '600732.SS',   # Shanghai Electric Group Company Limited (China)
         '601012.SS',   # LONGi Green Energy Technology Co., Ltd. (China)
         '601615.SS',   # Mingyang Smart Energy Group Co., Ltd. (China)
         '688223.SS',   # Beijing Jingyuntong Technology Co., Ltd. (China)
         '688390.SS',   # Suzhou Maxwell Technologies Co., Ltd. (China)
         '688599.SS',   # Trina Solar Limited (China)
-#        '688717.SS',    # solax power network tech
+        '688516.SS',   # Wuxi Autowell Technology Co.,Ltd. 
+#        '688717.SS',  # solax power network tech
         'AGX',         # Argan, Inc. (USA)
         'AMPS',        # Altus Power, Inc. (USA)
         'ARRY',        # Array Technologies, Inc. (USA)
@@ -90,13 +93,13 @@ ClimateTech_SOLAR = [
         'SHLS',        # Shoals Technologies Group, Inc. (USA)
         'SLDP',        # Solid Power, Inc. (USA)
         'SOL',         # ReneSola Ltd. (China)
-#        'SOLAR.BK',    # Solartron Public Company Limited
+#        'SOLAR.BK',   # Solartron Public Company Limited
         'SOLARINDS.BO',# Solar Industries India Limited (India)
         'SOLR.V',      # Solar Alliance Energy Inc. (Canada)
         'SOLT.ST',     # SolTech Energy Sweden AB (Sweden)
-#        'SPWR',        # SunPower Corporation (USA)
+#        'SPWR',       # SunPower Corporation (USA)
         'TPIC',        # TPI Composites, Inc. (USA)
-#       'TTE',          # TotalEnergies SE (France)
+#       'TTE',         # TotalEnergies SE (France)
         'ZODIAC.NS'    # Zodiac Energy Limited (India)
     ]
 
@@ -149,6 +152,7 @@ ClimateTech_STORAGE = [
     '688390.SS',    # Ganfeng Lithium Co., Ltd. (China)
     '688567.SS',    # Sunwoda Electronic Co., Ltd. (China)
     '605117.SS',    # Ningbo Deye Technology Group Co., Ltd.
+    '688516.SS',    # Wuxi Autowell Technology Co.,Ltd. 
     'AQMS',         # Aqua Metals, Inc. 
     'AMPX',         # Amprius Technologies, Inc. (USA)
     'AMY.V',        # American Manganese Inc. (Canada)
